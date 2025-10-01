@@ -1,5 +1,4 @@
 /vendor/
-/system/
 .env
 phpunit.xml
 .DS_Store
