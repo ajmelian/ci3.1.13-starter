@@ -3,3 +3,5 @@ phpunit.xml
 .DS_Store
 .idea/
 .vscode/
+*.code-workspace
+.git/
