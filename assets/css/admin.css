@@ -1,0 +1,42 @@
+/*
+ * Nombre: admin.css
+ * Descripción: Estilos específicos del panel administrativo.
+ * Autor: Aythami Melián Perdomo
+ * Fecha: 2025-10-01
+ */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(18, 38, 63, 0.07);
+}
+.dashboard-card h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+.dashboard-card span {
+    color: #6c757d;
+}
+.table-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+.badge-role {
+    display: inline-block;
+    background-color: rgba(13, 110, 253, 0.1);
+    color: #0d6efd;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.85rem;
+}
+.form-inline {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    align-items: center;
+}

@@ -1,0 +1,51 @@
+/*
+ * Nombre: app.css
+ * Descripción: Estilos complementarios para la interfaz de autenticación.
+ * Autor: Aythami Melián Perdomo
+ * Fecha: 2025-10-01
+ */
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-wrapper {
+    width: 100%;
+    max-width: 420px;
+}
+.brand-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.lock-screen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    color: #fff;
+}
+.lock-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.qr-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px dashed #ced4da;
+    border-radius: 0.75rem;
+    background-color: #fff;
+}

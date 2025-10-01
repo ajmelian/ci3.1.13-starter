@@ -1,0 +1,44 @@
+<?php
+declare(strict_types=1);
+
+defined('BASEPATH') or exit('No direct script access allowed');
+
+$config['base_url'] = $_ENV['APP_URL'] ?? 'http://localhost/';
+$config['index_page'] = '';
+$config['uri_protocol'] = 'REQUEST_URI';
+$config['language'] = 'spanish';
+$config['charset'] = 'UTF-8';
+$config['enable_hooks'] = true;
+$config['log_threshold'] = 1;
+$config['log_path'] = '';
+$config['log_file_extension'] = '';
+$config['log_file_permissions'] = 0640;
+$config['log_date_format'] = 'Y-m-d H:i:s';
+$config['cache_path'] = '';
+$config['encryption_key'] = $_ENV['APP_KEY'] ?? '';
+$config['sess_driver'] = 'files';
+$config['sess_cookie_name'] = 'ci_session';
+$config['sess_expiration'] = 7200;
+$config['sess_save_path'] = sys_get_temp_dir();
+$config['sess_match_ip'] = false;
+$config['sess_time_to_update'] = 300;
+$config['sess_regenerate_destroy'] = true;
+$config['cookie_prefix'] = '';
+$config['cookie_domain'] = '';
+$config['cookie_path'] = '/';
+$config['cookie_secure'] = ($_ENV['APP_ENV'] ?? 'development') === 'production';
+$config['cookie_httponly'] = true;
+$config['cookie_samesite'] = 'Lax';
+$config['standardize_newlines'] = false;
+$config['global_xss_filtering'] = true;
+$config['csrf_protection'] = true;
+$config['csrf_token_name'] = 'csrf_token';
+$config['csrf_cookie_name'] = 'csrf_cookie';
+$config['csrf_expire'] = 7200;
+$config['csrf_regenerate'] = true;
+$config['csrf_exclude_uris'] = [];
+$config['compress_output'] = false;
+$config['time_reference'] = 'local';
+$config['rewrite_short_tags'] = false;
+$config['proxy_ips'] = '';
+$config['app_name'] = $_ENV['APP_NAME'] ?? 'CI Gestión Segura';
